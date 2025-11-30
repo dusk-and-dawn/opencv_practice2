@@ -1,7 +1,7 @@
 import cv2 as cv
 import sys 
 
-img = cv.imread('3142.jpg')
+img = cv.imread('output/3142.jpg')
 cv.imshow('display image', img)
 cv.imwrite('copy.jpg', img)
 
